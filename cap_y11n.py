@@ -48,8 +48,8 @@ class YOLOclass:
         cv2.destroyAllWindows()
 
 print('start')
-transformer_detector = YOLOclass(0)
-transformer_detector()
+detector = YOLOclass(0)
+detector()
 print('done')
 
     
